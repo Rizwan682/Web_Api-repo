@@ -130,6 +130,15 @@ namespace ThirdTryOfASPNETCOREWEBAPI.Controllers
 
 
 
+
+        [HttpGet]
+        [Route("GetIntigerTest")]
+        public int GetIntigerTest()
+        {
+            return 0;
+        }
+
+
     }
 }
 
